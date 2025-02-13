@@ -1,34 +1,39 @@
-```markdown
+# User Management API
 
 ## Overview
+
 This project is a FastAPI-based CRUD API for managing user data with MySQL. It provides robust authentication and authorization using role-based access control:
+
 - **Admin Users** can perform full CRUD operations.
 - **Normal Users** can only view their own data.
 - Secure password handling using bcrypt.
 - Access tokens with a configurable TTL (Time-to-Live) are generated upon login.
 
 ## Features
-- **CRUD Operations:** Create, Read, Update, Delete, and List users.
-- **Authentication:** User login with cellnumber and password.
-- **Authorization:** Role-based access (Admin vs. Normal User).
-- **Token Management:** Secure access token generation and storage.
-- **Error Handling:** Global exception handling for database integrity issues and other errors.
+
+- **CRUD Operations:** Create, Read, Update, Delete, and List users.  
+- **Authentication:** User login with cellnumber and password.  
+- **Authorization:** Role-based access (Admin vs. Normal User).  
+- **Token Management:** Secure access token generation and storage.  
+- **Error Handling:** Global exception handling for database integrity issues and other errors.  
 - **Database:** MySQL with two tables: `user` and `accesstoken`.
 
 ## Tech Stack
-- **Programming Language:** Python 3.9+
-- **Framework:** FastAPI
-- **Database ORM:** SQLAlchemy (with PyMySQL for MySQL)
-- **Authentication:** Passlib (bcrypt)
-- **Server:** Uvicorn
+
+- **Programming Language:** Python 3.9+  
+- **Framework:** FastAPI  
+- **Database ORM:** SQLAlchemy (with PyMySQL for MySQL)  
+- **Authentication:** Passlib (bcrypt)  
+- **Server:** Uvicorn  
 
 ## Installation & Setup
 
 ### 1. Clone the Repository
+
 ```bash
 git clone <repository_url>
 cd <repository_directory>
-```
+
 
 ### 2. Create and Activate Virtual Environment
 ```bash
