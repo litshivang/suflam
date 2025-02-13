@@ -34,7 +34,7 @@ This project is a FastAPI-based CRUD API for managing user data with MySQL. It p
 git clone <repository_url>
 cd <repository_directory>
 
-
+```
 ### 2. Create and Activate Virtual Environment
 ```bash
 python -m venv venv
