@@ -31,8 +31,8 @@ This project is a FastAPI-based CRUD API for managing user data with MySQL. It p
 ### 1. Clone the Repository
 
 ```bash
-git clone <repository_url>
-cd <repository_directory>
+git clone https://github.com/litshivang/suflam.git
+cd suflam
 
 ```
 ### 2. Create and Activate Virtual Environment
